@@ -1,0 +1,10 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka
+words: boat,book,vote,seat,backpack,partition,groundhog
+server.port: 8020
